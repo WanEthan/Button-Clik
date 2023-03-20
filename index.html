@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Cliker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- -----------NavBar part---------- -->
+    <div class="narbar">
+        <h1 class="name">Dojonary</h1>
+        <input class="search" type="text" placeholder="Search">
+        <button class="sign-in" onclick="changeText(this)">Login</button>
+    </div>
+
+    <!-- -----------Main part---------- -->
+    <div class="container">
+
+        <!-- -----------left column  part---------- -->
+        <div class="left-column">
+
+            <div class="flashcard">
+
+                <div class="left">
+                    <p class="cardname">ninja</p>
+                    <p class="type">noun</p>
+                    <p class="plural">Plural: <span>ninjas</span></p>
+                    <button class="likebutton" onclick="message()">13 likes</button>
+                </div>
+
+                <div class="right">
+                    <p class="description">
+                        A practitioner skilled in the <a href="" class="Japan">Japanese</a> art of <a href=""
+                            class="ninju">ninjutsu</a>
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div class="flashcard">
+
+                <div class="left">
+                    <p class="cardname">ninja</p>
+                    <p class="type">noun</p>
+                    <p class="plural">Plural: <span>ninjas</span></p>
+                    <button class="likebutton" onclick="message()">53 likes</button>
+                </div>
+
+                <div class="right">
+                    <p class="description">
+                        A <a href="" class="programmer">programmer</a> who breaks down problems with <a href=""
+                            class="zen">zen</a>-like focus
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- -----------right column  part---------- -->
+
+        <div class="right-column">
+
+            <div class="add-remove">
+
+                <p class="description">
+                    Dojonary is defined by <strong>YOU</strong>
+                </p>
+
+                <button class="addbutton" onclick="hideButton(this)">Add Definition</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
